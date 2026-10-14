@@ -18,8 +18,7 @@ export const UploadInput = () => {
           alt="icono de información para la carga de imagen de tu avatar"
         />
         <p className="text-xs">
-          {' '}
-          Upload your photo (JPG or PNG, max size: 500KB).{' '}
+          Upload your photo (JPG or PNG, max size: 500KB).
         </p>
       </div>
     </div>
