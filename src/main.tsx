@@ -6,11 +6,11 @@ import App from './App.tsx'
 const rootElement = document.getElementById('root')
 
 if (!rootElement) {
-  throw new Error("El elemento root no existe")
-} else {
-  createRoot(rootElement).render(
-    <StrictMode>
-      <App />
-    </StrictMode>,
-  )
+  throw new Error('El elemento root no existe')
 }
+
+createRoot(rootElement).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)

@@ -1,11 +1,12 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
   font-family: Inconsolata;
   font-style: normal;
   font-weight: 400 500 700 800;
   font-display: swap;
-  src: url("/public/assets/fonts/Inconsolata-VariableFont_wdth_wght.ttf") format("woff2");
+  src: url('/assets/fonts/Inconsolata-VariableFont_wdth_wght.ttf')
+    format('woff2');
 }
 
 @theme {
@@ -21,5 +22,5 @@
 }
 
 body {
-  @apply bg-neutral-900 text-neutral-0 font-Inconsolata
+  @apply bg-neutral-900 font-Inconsolata text-neutral-0;
 }

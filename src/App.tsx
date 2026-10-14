@@ -1,12 +1,11 @@
-import { TicketFormPage } from "./components/ticket-form-page/ticket-form-page"
+import { TicketFormPage } from './components/ticket-form-page/ticket-form-page'
 
 function App() {
-  return(
+  return (
     <>
-      <TicketFormPage/>
+      <TicketFormPage />
     </>
   )
-
 }
 
 export default App
