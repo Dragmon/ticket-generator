@@ -22,5 +22,5 @@
 }
 
 body {
-  @apply bg-neutral-900 font-Inconsolata text-neutral-0;
+  @apply font-Inconsolata text-neutral-0;
 }
